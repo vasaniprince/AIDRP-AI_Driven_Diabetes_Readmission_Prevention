@@ -1,20 +1,7 @@
 google.generativeai
 streamlit
-catboost
-imblearn
-pandas 
-notebook
-numpy>=1.26.0
-scikit-learn
-matplotlib
-python-box==6.0.2
-pyYAML
 ensure==1.0.2
-joblib
 types-PyYAML
-pathlib
-zlib
 subprocess.run
-Pillow==10.2.0
 python-dotenv
 -e .
