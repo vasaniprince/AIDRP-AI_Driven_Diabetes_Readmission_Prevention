@@ -4,7 +4,7 @@ catboost
 imblearn
 pandas 
 notebook
-numpy==1.22.4
+numpy>=1.26.0
 scikit-learn
 matplotlib
 python-box==6.0.2
