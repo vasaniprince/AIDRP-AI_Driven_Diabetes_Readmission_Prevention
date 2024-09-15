@@ -16,7 +16,7 @@ with st.sidebar:
 #Here, we have used the Gemini Vision Pro with a prompt query. It gives an overview, sugar content, and health rating of a meal.
 
 genai.configure(api_key= os.getenv("GEMINI_API_KEY"))
-model = genai.GenerativeModel('gemini-1.0-pro-vision-latest')
+model = genai.GenerativeModel('gemini-1.5-flash')
 st.header("MealScan🕵️: Your Nutritional Ally",divider='green')
 st.write("Upload a photo of your meal to get its overview, sugar content and health rating.")
 
